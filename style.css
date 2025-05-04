@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #000; /* Schwarzer Hintergrund */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #aaff80; /* Hellgrüne Standardtextfarbe */
+}
+
+.code-input-container {
+  background-color: #1a1a1a; /* Dunkelgrau für den Container */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(170, 255, 128, 0.2); /* Leichter Schatten in Hellgrün */
+  text-align: center;
+}
+
+.code-input-container h1 {
+  color: #80ff80; /* Etwas helleres Grün für die Überschrift */
+  margin-bottom: 20px;
+}
+
+#code-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaff80; /* Hellgrüne Umrandung */
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #333; /* Dunkler Hintergrund für das Eingabefeld */
+  color: #aaff80; /* Hellgrüne Textfarbe im Eingabefeld */
+}
+
+button {
+  background-color: #80ff80; /* Helles Grün für den Button */
+  color: #000; /* Schwarze Textfarbe auf dem Button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4dff4d; /* Noch helleres Grün beim Hover */
+}
+
+.error-message {
+  color: #ccff99; /* Sehr helles Grün für Fehlermeldungen */
+  margin-top: 10px;
+}
+
+.hint-message {
+  color: #ccff99; /* Sehr helles Grün für Hinweise */
+  margin-top: 10px;
+}
+
+.website-content {
+  background-color: #1a1a1a; /* Dunkelgrau für den Inhaltsbereich (wird nicht mehr angezeigt) */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(170, 255, 128, 0.2); /* Leichter Schatten in Hellgrün */
+  text-align: center;
+  margin-top: 20px;
+  max-width: 800px;
+  display: none;
+}
+
+header h1 {
+  color: #80ff80; /* Helles Grün für die Hauptüberschrift */
+}
+
+main {
+  padding: 20px 0;
+}
+
+.pastel-section {
+  background-color: #333; /* Dunklerer Hintergrund für Abschnitte */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #aaff80; /* Hellgrüne Textfarbe in Abschnitten */
+}
+
+footer {
+  background-color: #1a1a1a; /* Dunkelgrau für den Footer */
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+  color: #aaff80; /* Hellgrüne Textfarbe im Footer */
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+
+  .code-input-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 20px);
+  }
+}

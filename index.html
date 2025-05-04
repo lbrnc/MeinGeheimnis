@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mein größtes Geheimnis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="code-input-container">
+      <h1>Bitte Code eingeben:</h1>
+      <input type="password" id="code-input" placeholder="****" />
+      <button onclick="checkCode()">Überprüfen</button>
+      <p id="message" class="error-message"></p>
+    </div>
+
+    <div class="website-content" style="display: none">
+      <header>
+        <h1>Mein größtes Geheimnis</h1>
+      </header>
+      <main>
+        <p>
+          Dieser Inhalt ist sichtbar, nachdem der richtige Code eingegeben
+          wurde.
+        </p>
+        <section class="pastel-section">
+          <h2>Ein pastellfarbener Bereich</h2>
+          <p>Hier gibt es weitere interessante Informationen.</p>
+        </section>
+        <section>
+          <h2>Noch ein Bereich</h2>
+          <p>Und noch mehr Inhalt.</p>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Mein größtes Geheimnis</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
